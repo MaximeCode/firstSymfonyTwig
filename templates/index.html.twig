@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Page d'accueil{% endblock %}
+
+{% block body %}
+    <div class="bg-secondary">
+        <div id="homeCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="{{ asset('img/img1.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/img2.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/img3.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="{{ asset('img/img4.jpg') }}" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#homeCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#homeCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <p class="paragraphe p-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ac semper odio, at
+            vehicula ipsum.
+            Pellentesque in consequat lorem. Curabitur a elementum dolor. Nam sit amet rhoncus sapien, sed sagittis
+            lorem. Nam facilisis erat sit amet ex feugiat, non tristique urna malesuada. Cras eu nunc nec neque placerat
+            tincidunt at sit amet sapien. Etiam ullamcorper mollis ligula, at congue risus accumsan vel. Quisque
+            venenatis porta mauris, id facilisis nulla sodales id. Nulla mollis eget est in accumsan. Interdum et
+            malesuada fames ac ante ipsum primis in faucibus. Donec lectus felis, commodo a tellus ut, maximus dictum
+            nulla. Nullam sit amet pretium neque, eget dignissim neque. Maecenas sed lacinia lorem. Ut id massa ac urna
+            sodales tempus. Duis sem metus, dapibus sed odio eu, imperdiet congue elit. Ut eget rhoncus ipsum.
+
+            Cras facilisis porta urna, id tempus velit pulvinar non. Maecenas a ipsum at massa suscipit pulvinar.
+            Vestibulum iaculis bibendum purus, vitae mollis orci sollicitudin ac. Orci varius natoque penatibus et
+            magnis dis parturient montes, nascetur ridiculus mus. Integer bibendum ex in dolor egestas gravida. In
+            gravida semper quam, et sollicitudin dolor mattis vel. Quisque facilisis ante a dui facilisis, condimentum
+            ullamcorper mauris interdum. Donec maximus felis a velit eleifend, at scelerisque lorem lobortis. Nam in
+            imperdiet augue. Aliquam condimentum mauris sed rutrum tempus.</p>
+    </div>
+{% endblock %}
