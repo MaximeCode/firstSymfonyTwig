@@ -6,3 +6,7 @@ nav .active {
 .paragraphe {
     background-color: #cdcdcd;
 }
+
+.parent {
+    height: 100%;
+}
